@@ -1,0 +1,172 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef1"
+            },
+            "Name": "QL - Calculate Spend Change - Downsell",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "On Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef2"
+            },
+            "Name": "QL - Calculate Spend Change - Independent Upsell",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "On Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef3"
+            },
+            "Name": "QL - Calculate Revenue Amounts - Downsells",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "After Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef4"
+            },
+            "Name": "QL - Calculate Revenue Amounts - Initial Sale",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "After Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef5"
+            },
+            "Name": "QL - Calculate Spend Change - Non-Downsell + Non-Null Asset",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "On Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef6"
+            },
+            "Name": "Calculate MRR",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": 10,
+            "SBQQ__EvaluationEvent__c": "On Initialization;After Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef7"
+            },
+            "Name": "QL - Asset Action Category - Set Initial Sale",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "Before Calculate",
+            "SBQQ__ConditionsMet__c": "Custom",
+            "SBQQ__AdvancedCondition__c": "1 AND (2 OR 3)",
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef8"
+            },
+            "Name": "QL - Asset Action Category - Set Downsell - Direct Asset Change",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "Before Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef9"
+            },
+            "Name": "QL - Asset Action Category - Set Upsell - Independent Sale",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "Before Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef10"
+            },
+            "Name": "QL - Asset Action Category - Set Upsell - Direct Asset Change",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "Before Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef11"
+            },
+            "Name": "QL - Calculate Revenue Amounts - Renewals",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "After Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        },
+        {
+            "attributes": {
+                "type": "SBQQ__PriceRule__c",
+                "referenceId": "SBQQ__PriceRule__cRef12"
+            },
+            "Name": "QL - Calculate Revenue Amounts - Upsells",
+            "SBQQ__Active__c": true,
+            "SBQQ__TargetObject__c": "Calculator",
+            "SBQQ__EvaluationOrder__c": null,
+            "SBQQ__EvaluationEvent__c": "After Calculate",
+            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__AdvancedCondition__c": null,
+            "SBQQ__LookupObject__c": null
+        }
+    ]
+}

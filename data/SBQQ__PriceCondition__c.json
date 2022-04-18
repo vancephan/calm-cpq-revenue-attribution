@@ -1,0 +1,305 @@
+{
+    "records": [
+        
+            
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef1"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef1",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Downsells"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef2"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef2",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Upsells"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef3"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef2",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Asset__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef4"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef3",
+                        "SBQQ__Index__c": 1,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Downsells"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef5"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef4",
+                        "SBQQ__Index__c": 1,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Initial Sale"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef6"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef5",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Asset__c",
+                        "SBQQ__Operator__c": "not equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef7"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef5",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "not equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Downsells"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef8"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef6",
+                        "SBQQ__Index__c": 1,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "SBQQ__DefaultSubscriptionTerm__c",
+                        "SBQQ__Operator__c": "not equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef9"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef7",
+                        "SBQQ__Index__c": 2,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Existing_Quantity__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef10"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef7",
+                        "SBQQ__Index__c": 3,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Existing_Quantity__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "0"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef11"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef7",
+                        "SBQQ__Index__c": 1,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Asset__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef12"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef8",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "SBQQ__EffectiveQuantity__c",
+                        "SBQQ__Operator__c": "less than",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "0"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef13"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef8",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "not equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Renewals"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef14"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef8",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Asset__c",
+                        "SBQQ__Operator__c": "not equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef15"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef8",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "SBQQ__Existing__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "TRUE"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef16"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef9",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Existing_Quantity__c",
+                        "SBQQ__Operator__c": "greater than",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "0"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef17"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef9",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Asset__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef18"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef10",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "Asset__c",
+                        "SBQQ__Operator__c": "not equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef19"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef10",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "SBQQ__EffectiveQuantity__c",
+                        "SBQQ__Operator__c": "greater than",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "0"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef20"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef10",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "not equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Renewals"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef21"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef10",
+                        "SBQQ__Index__c": null,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "SBQQ__Existing__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "TRUE"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef22"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef11",
+                        "SBQQ__Index__c": 1,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Renewals"
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceCondition__c",
+                            "referenceId": "SBQQ__PriceCondition__cRef23"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef12",
+                        "SBQQ__Index__c": 1,
+                        "SBQQ__Object__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Operator__c": "equals",
+                        "SBQQ__FilterType__c": "Value",
+                        "SBQQ__Value__c": "Upsells"
+                    }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "records": [
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef1"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef1",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Spend_Change__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "SBQQ__NetTotal__c",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef2"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef2",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Spend_Change__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "SBQQ__NetTotal__c",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef3"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef3",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Expansion_Sale_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef4"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef3",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Renewal_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef5"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef3",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Churn_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "Spend_Change__c",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef6"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef3",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "New_Sale_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef7"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef4",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Churn_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef8"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef4",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Renewal_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef9"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef4",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Expansion_Sale_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef10"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef4",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "New_Sale_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "Spend_Change__c",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef11"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef5",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Spend_Change__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "SBQQ__NetTotal__c - Existing_Spend__c",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef12"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef6",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "MRR__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "IF((ISPICKVAL(SBQQ__SubscriptionPricing__c,\"Fixed Price\") || ISPICKVAL(SBQQ__SubscriptionPricing__c,\"Percent of Total\")) && ( !ISPICKVAL( SBQQ__ChargeType__c , 'Usage') ),\nIF(Calculated_Sub_Term__c <> 0.0 && not(ISNULL(Calculated_Sub_Term__c)),SBQQ__NetTotal__c / Calculated_Sub_Term__c,0.0),0.0)",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef13"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef7",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Value__c": "Initial Sale",
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef14"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef8",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Value__c": "Downsells",
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef15"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef9",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Value__c": "Upsells",
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef16"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef10",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "AssetActionCategory__c",
+                        "SBQQ__Value__c": "Upsells",
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef17"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef11",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Churn_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "IF(Spend_Change__c < 0, Spend_Change__c, null)",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef18"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef11",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Renewal_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "Existing_Spend__c",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef19"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef11",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "New_Sale_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef20"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef11",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Expansion_Sale_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "IF(Spend_Change__c > 0, Spend_Change__c, null)",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef21"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef12",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Churn_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef22"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef12",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Expansion_Sale_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": "Spend_Change__c",
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef23"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef12",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "Renewal_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    },
+                    {
+                        "attributes": {
+                            "type": "SBQQ__PriceAction__c",
+                            "referenceId": "SBQQ__PriceAction__cRef24"
+                        },
+                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef12",
+                        "SBQQ__TargetObject__c": "Quote Line",
+                        "SBQQ__Field__c": "New_Sale_Amount__c",
+                        "SBQQ__Value__c": null,
+                        "SBQQ__Formula__c": null,
+                        "SBQQ__SourceLookupField__c": null
+                    }
+    ]
+}

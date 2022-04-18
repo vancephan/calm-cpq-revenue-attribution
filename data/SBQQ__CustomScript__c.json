@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "SBQQ__CustomScript__c",
+                "referenceId": "SBQQ__CustomScript__cRef1"
+            },
+            "Name": "CALMQueryTest",
+            "SBQQ__Code__c": "export function onBeforePriceRules(quoteModel, quoteLineModels, conn) {\r\n    if(quoteLineModels.length >0){\r\n        quoteLineModels.forEach(function(line){\r\n            console.log('Console logging line: ', line);\r\n            const qLine = {ql:{}};\r\n\r\n            var qlStartDate = line.record[\"SBQQ__EffectiveStartDate__c\"];\r\n            console.log('Raw date is ', qlStartDate);\r\n\r\n            var qlStartDateOutput = qlStartDate.toString();\r\n\r\n            console.log('Converted date is ', qlStartDateOutput);\r\n\r\n\r\n            qLine.ql.accountId = quoteModel.record[\"SBQQ__Account__c\"];\r\n            qLine.ql.qlId = line.record[\"Id\"];\r\n            qLine.ql.productId = line.record[\"SBQQ__Product__c\"];\r\n            qLine.ql.quantity = line.record[\"SBQQ__Quantity__c\"];\r\n            qLine.ql.startDate = qlStartDateOutput.toString();\r\n\r\n            console.log('JSON message body: ', qLine);\r\n\r\n            conn.apex.post('/CALMQueryService/queryAssetInstallBase/', qLine)\r\n            .then(results => {\r\n                console.log('Results', results);\r\n\r\n                console.log('Product Id is ', results.prodId);\r\n                console.log('Aggregated quantity is ', results.quantity);\r\n                console.log('Aggregated MRR is ', results.assetMRR);\r\n                console.log('Aggregated spend is ', results.assetSpend);\r\n\r\n                line.record[\"Existing_Quantity__c\"] = results.quantity;\r\n                line.record[\"Existing_MRR__c\"] = results.assetMRR;\r\n                line.record[\"Existing_Spend__c\"] = results.assetSpend;\r\n            })\r\n            .catch(error => {\r\n                console.log('Error', error);\r\n\r\n            });\r\n        });\r\n    }    \r\n\r\n    return Promise.resolve();\r\n};",
+            "SBQQ__QuoteLineFields__c": "SBQQ__EffectiveStartDate__c"
+        }
+    ]
+}
