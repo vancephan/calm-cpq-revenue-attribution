@@ -135,19 +135,6 @@
                     {
                         "attributes": {
                             "type": "SBQQ__PriceCondition__c",
-                            "referenceId": "SBQQ__PriceCondition__cRef11"
-                        },
-                        "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef7",
-                        "SBQQ__Index__c": 1,
-                        "SBQQ__Object__c": "Quote Line",
-                        "SBQQ__Field__c": "Asset__c",
-                        "SBQQ__Operator__c": "equals",
-                        "SBQQ__FilterType__c": "Value",
-                        "SBQQ__Value__c": null
-                    },
-                    {
-                        "attributes": {
-                            "type": "SBQQ__PriceCondition__c",
                             "referenceId": "SBQQ__PriceCondition__cRef12"
                         },
                         "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef8",

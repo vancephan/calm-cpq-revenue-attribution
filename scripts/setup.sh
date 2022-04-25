@@ -18,11 +18,11 @@ function error_and_exit() {
 }
 
 echo_attention "Installing Salesforce CPQ 238 Package"
-sfdx force:source:install --package 04t4N000000GkWMQA0 -s AllUsers
+sfdx force:package:install --package 04t4N000000GkWMQA0 -s AllUsers
 
 echo_attention "Installing Latest Salesforce Billing 238 Package"
 
-sfdx force:source:install --package 04t0K000000wUsQQAU -s AllUsers
+sfdx force:packaage:install --package 04t0K000000wUsQQAU -s AllUsers
 
 echo_attention "Pushing Revenue Attribution Salesforce org configuration in Main Default to the Org. This will take a few minutes."
 sfdx force:source:deploy -p $defaultDir --apiversion=52.0
@@ -30,7 +30,7 @@ sfdx force:source:deploy -p $defaultDir --apiversion=52.0
 echo ""
 
 echo_attention "Assigning Revenue Attribution User Permission Set"
-sfdx force:user:permset:assign --permsetname Revenue_Attribution_User
+sfdx force:user:permset:assign --permsetname CALM_Revenue_Attribution_User
 
 echo ""
 
