@@ -268,7 +268,7 @@
                             "referenceId": "SBQQ__PriceCondition__cRef22"
                         },
                         "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef11",
-                        "SBQQ__Index__c": 1,
+                        "SBQQ__Index__c": null,
                         "SBQQ__Object__c": "Quote Line",
                         "SBQQ__Field__c": "AssetActionCategory__c",
                         "SBQQ__Operator__c": "equals",
@@ -281,7 +281,7 @@
                             "referenceId": "SBQQ__PriceCondition__cRef23"
                         },
                         "SBQQ__Rule__c": "@SBQQ__PriceRule__cRef12",
-                        "SBQQ__Index__c": 1,
+                        "SBQQ__Index__c": null,
                         "SBQQ__Object__c": "Quote Line",
                         "SBQQ__Field__c": "AssetActionCategory__c",
                         "SBQQ__Operator__c": "equals",
