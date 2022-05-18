@@ -33,7 +33,7 @@ sfdx force:data:tree:import -p $priceRuleData
 echo ""
 
 echo_attention "Pushing in Custom Script data."
-sfdx force:data:tree:import -p $customScriptData
+sfdx force:data:tree:import -f $customScriptData
 
 echo ""
 
