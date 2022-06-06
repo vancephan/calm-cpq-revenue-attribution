@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "revenue-attribution",
+      "default": true
+    }
+  ],
+  "name": "revenue-attribution",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "54.0"
+}
