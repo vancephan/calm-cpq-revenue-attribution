@@ -94,7 +94,7 @@
             "SBQQ__TargetObject__c": "Calculator",
             "SBQQ__EvaluationOrder__c": null,
             "SBQQ__EvaluationEvent__c": "Before Calculate",
-            "SBQQ__ConditionsMet__c": "All",
+            "SBQQ__ConditionsMet__c": "Any",
             "SBQQ__AdvancedCondition__c": "",
             "SBQQ__LookupObject__c": null
         },
