@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#api version to run sfdx commands
+apiversion="55.0"
+
 defaultDir="../revenue-attribution/main"
 priceRuleData="../data/price-rule-data.json";
 customScriptData="../data/SBQQ__CustomScript__c.json"
@@ -18,7 +21,7 @@ function error_and_exit() {
 }
 
 echo_attention "Pushing Revenue Attribution Salesforce org configuration in Main Default to the Org. This will take a few minutes."
-sfdx force:source:deploy -p $defaultDir --apiversion=52.0
+sfdx force:source:deploy -p $defaultDir --apiversion=$apiversion
 
 echo ""
 
