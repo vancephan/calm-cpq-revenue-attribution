@@ -131,7 +131,7 @@ public  class GenerateAssetOrderItem {
 
     static String buildGenerateRestAPIURL() {
         String sfdcURL = Url.getSalesforceBaseUrl().toExternalForm();
-        String restAPIURL = sfdcURL + '/services/data/v54.0/asset-management/assets/actions/generate';
+        String restAPIURL = sfdcURL + '/services/data/v55.0/asset-management/assets/actions/generate';
         system.debug(restAPIURL);
         return restAPIURL;
     }
