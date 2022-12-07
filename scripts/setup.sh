@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #api version to run sfdx commands
-apiversion="55.0"
+apiversion="56.0"
 
 defaultDir="../revenue-attribution/main"
 priceRuleData="../data/price-rule-data.json";

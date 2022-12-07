@@ -15,7 +15,7 @@
             </value>
         </inputParameters>
     </actionCalls>
-    <apiVersion>55.0</apiVersion>
+    <apiVersion>56.0</apiVersion>
     <interviewLabel>Order Product - Generate CALM Asset {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Order Product - Generate CALM Asset</label>
     <processMetadataValues>

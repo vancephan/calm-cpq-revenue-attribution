@@ -164,7 +164,7 @@ public with sharing class ChangeAssetOrderItem {
 
     static String buildChangeRestAPIURL(Id assetId) {
         String sfdcURL = Url.getSalesforceBaseUrl().toExternalForm();
-        String restAPIURL = sfdcURL + '/services/data/v55.0/asset-management/assets/' + assetId + '/actions/change';
+        String restAPIURL = sfdcURL + '/services/data/v56.0/asset-management/assets/' + assetId + '/actions/change';
         System.debug('URL posted to was ' + restAPIURL);
         return restAPIURL;
     }
