@@ -52,3 +52,4 @@ sfdx
 mdapi
 
 **/.eslintrc.json
+package-lock.json
