@@ -38,3 +38,17 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+.vscode
+.husky
+.prettierrc
+.prettierignore
+.eslintignore
+
+jest.config.js
+
+deploy
+sfdx
+mdapi
+
+**/.eslintrc.json
