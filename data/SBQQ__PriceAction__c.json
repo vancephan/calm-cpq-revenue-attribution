@@ -34,7 +34,8 @@
                         "SBQQ__Field__c": "Expansion_Sale_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 3
                     },
                     {
                         "attributes": {
@@ -46,7 +47,8 @@
                         "SBQQ__Field__c": "Renewal_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 4
                     },
                     {
                         "attributes": {
@@ -58,7 +60,8 @@
                         "SBQQ__Field__c": "Churn_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": "Spend_Change__c",
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 5
                     },
                     {
                         "attributes": {
@@ -70,7 +73,8 @@
                         "SBQQ__Field__c": "New_Sale_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 2
                     },
                     {
                         "attributes": {
@@ -82,7 +86,8 @@
                         "SBQQ__Field__c": "Churn_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 5
                     },
                     {
                         "attributes": {
@@ -94,7 +99,8 @@
                         "SBQQ__Field__c": "Renewal_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 4
                     },
                     {
                         "attributes": {
@@ -106,7 +112,8 @@
                         "SBQQ__Field__c": "Expansion_Sale_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 3
                     },
                     {
                         "attributes": {
@@ -117,8 +124,9 @@
                         "SBQQ__TargetObject__c": "Quote Line",
                         "SBQQ__Field__c": "New_Sale_Amount__c",
                         "SBQQ__Value__c": null,
-                        "SBQQ__Formula__c": "Spend_Change__c",
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__Formula__c": "SBQQ__NetTotal__c",
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 2
                     },
                     {
                         "attributes": {
@@ -202,7 +210,8 @@
                         "SBQQ__Field__c": "Churn_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": "IF(Spend_Change__c < 0, Spend_Change__c, null)",
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 5
                     },
                     {
                         "attributes": {
@@ -214,7 +223,8 @@
                         "SBQQ__Field__c": "Renewal_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": "Existing_Spend__c",
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 4
                     },
                     {
                         "attributes": {
@@ -226,7 +236,8 @@
                         "SBQQ__Field__c": "New_Sale_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 2
                     },
                     {
                         "attributes": {
@@ -238,7 +249,8 @@
                         "SBQQ__Field__c": "Expansion_Sale_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": "IF(Spend_Change__c > 0, Spend_Change__c, null)",
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 3
                     },
                     {
                         "attributes": {
@@ -250,7 +262,8 @@
                         "SBQQ__Field__c": "Churn_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 5
                     },
                     {
                         "attributes": {
@@ -262,7 +275,8 @@
                         "SBQQ__Field__c": "Expansion_Sale_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": "Spend_Change__c",
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 3
                     },
                     {
                         "attributes": {
@@ -274,7 +288,8 @@
                         "SBQQ__Field__c": "Renewal_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 4
                     },
                     {
                         "attributes": {
@@ -286,7 +301,8 @@
                         "SBQQ__Field__c": "New_Sale_Amount__c",
                         "SBQQ__Value__c": null,
                         "SBQQ__Formula__c": null,
-                        "SBQQ__SourceLookupField__c": null
+                        "SBQQ__SourceLookupField__c": null,
+                        "SBQQ__Order__c": 2
                     }
     ]
 }
