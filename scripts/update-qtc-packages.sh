@@ -17,10 +17,10 @@ function error_and_exit() {
     exit 1
 }
 
-echo_attention "Installing Salesforce CPQ 238 Package"
-sfdx force:package:install --package 04t4N000000GkWMQA0 -s AllUsers
+echo_attention "Installing Salesforce CPQ 240 Package"
+sfdx force:package:beta:install --package 04t4N000000N6EMQA0 -s AllUsers
 
-echo_attention "Installing Latest Salesforce Billing 238 Package"
-sfdx force:package:install --package 04t0K000000wUsQQAU -s AllUsers
+echo_attention "Installing Latest Salesforce Billing 240 Package"
+sfdx force:package:beta:install --package 04t0K000001VLmnQAG -s AllUsers
 
 echo ""
