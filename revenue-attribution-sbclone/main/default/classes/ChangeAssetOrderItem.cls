@@ -60,7 +60,7 @@ public with sharing class ChangeAssetOrderItem {
         InstallBaseAssetModel.AssetActionWrapper aaw = new InstallBaseAssetModel.AssetActionWrapper();
 
         aaw.category = oi.AssetActionCategory__c;
-        aaw.actionDate = CALMDateProcessing.getFormattedStartDate(Date.today());
+        aaw.actionDate = CALMDateProcessing.getFormattedStartDate(oi.ServiceDate);
         aaw.quantityChange = oi.Quantity;
         aaw.mrrChange = oi.MRR__c;
         aaw.amount = oi.TotalPrice;
@@ -164,7 +164,7 @@ public with sharing class ChangeAssetOrderItem {
 
     static String buildChangeRestAPIURL(Id assetId) {
         String sfdcURL = Url.getSalesforceBaseUrl().toExternalForm();
-        String restAPIURL = sfdcURL + '/services/data/v51.0/asset-management/assets/' + assetId + '/actions/change';
+        String restAPIURL = sfdcURL + '/services/data/v60.0/asset-management/assets/' + assetId + '/actions/change';
         System.debug('URL posted to was ' + restAPIURL);
         return restAPIURL;
     }
